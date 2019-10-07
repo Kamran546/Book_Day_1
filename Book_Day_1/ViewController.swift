@@ -43,6 +43,7 @@ class ViewController: UIViewController {
 //        label.textColor = .blue
         label.text = "My Label"
         view.addSubview(label)
+        print("changed")
         
         //with the help of attributedString can change the specific text color/style etc..
 //        let attributedString = NSMutableAttributedString(string: "The grass is green; the sky is blue.")
